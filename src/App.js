@@ -35,7 +35,7 @@ function App() {
   }
   function resta(){
     setValue(temperatureValue-5);
-    if (temperatureValue>20){
+    if (temperatureValue<20){
       setColor("cold");
     }
   }
